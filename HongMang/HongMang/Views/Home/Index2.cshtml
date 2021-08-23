@@ -1,0 +1,17 @@
+﻿@model List<HongMang.App_Data.F_Table>
+@{
+    ViewBag.Title = "Index2";
+}
+
+
+<h2>Index2</h2>
+
+@foreach (var m in Model)
+{
+    <ul>
+        <li>@m.FId</li>
+        <li>@m.FName</li>
+        <li>@m.FNO</li>
+    </ul>
+
+}
